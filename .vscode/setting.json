@@ -1,0 +1,18 @@
+{
+  "editor.fontLigatures": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.run": "onType",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": true
+  },
+  "markdown.preview.lineHeight": 1.5,
+  "markdown.extension.toc.githubCompatibility": true,
+  "markdownlint.config": {
+    "MD041": false
+  }
+}
