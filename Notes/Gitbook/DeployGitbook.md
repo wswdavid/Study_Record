@@ -23,8 +23,7 @@
 npm install github-webhook-handler
 ```
 
-接下来是监听的 js 程序
-`deploy.js`
+接下来是监听的 js 程序[deploy.js](https://github.com/wswdavid/Study_Record/blob/master/deploy.js)
 
 ```javascript
 var http = require("http");
@@ -75,7 +74,7 @@ handler.on("push", function(event) {
 
 ### 执行脚本
 
-部署 gitbook 的脚本 `deploy.sh`
+部署 gitbook 的脚本 [deploy.sh](https://github.com/wswdavid/Study_Record/blob/master/deploy.sh)
 
 ```bash
 #!/bin/bash

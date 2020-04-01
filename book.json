@@ -85,5 +85,10 @@
       "facebook": true,
       "all": ["facebook", "google", "twitter", "weibo", "instapaper"]
     }
+  },
+  "links": {
+    "sidebar": {
+      "Github URL": "https://github.com/wswdavid/Study_Record"
+    }
   }
 }
