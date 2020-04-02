@@ -14,3 +14,12 @@
   * [Vscode 免密登录云服务器](Notes/DevOps/VscodeRemoteConf.md)
 
 ---
+
+* [Python](Notes/Python/PythonIntro.md)
+  * [ListAndTuple](Notes/Python/ListAndTuple.md)
+
+---
+
+* [Leetcode](Notes/Leetcode/LeetcodeIntro.md)
+  * [938 二叉搜索树范围和](Notes/Leetcode/rangeSumBST.md)
+  * [1137 泰波那契数](Notes/Leetcode/Tribonacci.md)
