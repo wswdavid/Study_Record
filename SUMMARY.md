@@ -1,7 +1,7 @@
 # Summary
 
 * [Gitbook](Notes/Gitbook/IntroGitbook.md)
-  * [Gitbook 结构](Notes/Gitbook/GitbookStructure.md)
+  * [book.json](Notes/Gitbook/GitbookStructure.md)
   * [自动化 VPS 部署](Notes/Gitbook/DeployGitbook.md)
 
 ---

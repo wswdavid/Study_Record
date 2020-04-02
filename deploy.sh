@@ -14,5 +14,6 @@ git pull
 git checkout master
 
 echo "start build"
+gitbook install
 gitbook build
 echo "Finished."

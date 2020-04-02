@@ -1,19 +1,13 @@
-<!-- toc -->
-
-# Gitbook 的项目结构
-
-## book.json
-
 ```json
 {
   "title": "Study Record",
-  "description": "David WU 的个人记录",
+  "description": "David WU的个人学习记录",
   "author": "wswdavid",
   "language": "en",
   "gitbook": "3.2.3",
   "root": ".",
   "structure": {
-    "readme": "README.md"
+    "readme": "Introduction.md"
   },
   "plugins": [
     "-lunr",
@@ -81,7 +75,7 @@
       "edit": true
     },
     "tbfed-pagefooter": {
-      "copyright": "<a href='http://www.beian.miit.gov.cn'>粤 ICP 备 19162056-1 号</a> Copyright © wswdavid 2020",
+      "copyright": "<a href='http://www.beian.miit.gov.cn'>粤ICP备19162056-1号</a> Copyright © wswdavid 2020",
       "modify_label": "该文件修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
@@ -91,6 +85,11 @@
       "vk": false,
       "facebook": true,
       "all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+    }
+  },
+  "links": {
+    "sidebar": {
+      "Github URL": "https://github.com/wswdavid/Study_Record"
     }
   }
 }

@@ -21,3 +21,6 @@
 
 4. 解决本地冲突后提交commit
 5. `git push origin master` push 代码至主库
+
+一些典型的git流程操作可以参考[Git FLow](./Notes/DevOps/GitFlow.md)
+，持续更新中
