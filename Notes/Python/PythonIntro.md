@@ -1,3 +1,3 @@
-# Python基础知识总结
+# Python 基础知识总结
 
-* [数组和元组](./ListAndTuple.md)
+- [数组和元组](./ListAndTuple.md)
