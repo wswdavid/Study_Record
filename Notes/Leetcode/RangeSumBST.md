@@ -42,7 +42,7 @@ Tag: 递归，二叉树
 3. 当前值为None
 4. else
 
-```py
+```python
 class Solution:
     def rangeSumBST(self, node: TreeNode, L: int, R: int) -> int:
 
