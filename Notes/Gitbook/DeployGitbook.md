@@ -1,5 +1,3 @@
-<!-- toc -->
-
 # 自动化 VPS 部署
 
 每次 GitHub 的内容更新后都需要自己手动部署一遍，非常的繁琐。这里主要讲如何在 VPS 上实现自动化部署流程。
@@ -92,6 +90,7 @@ git pull
 git checkout master
 
 echo "start build"
+gitbook install
 gitbook build
 #如果是监听端口的方式运行，这里使用gitbook serve，gitbook会在机器上的4000端口运行
 echo "Finished."
@@ -166,7 +165,7 @@ vim /etc/nginx/nginx.conf
 
 打开 repo 的主页，Setting --> Webhooks --> Add webhook
 
-- Payload URL : ip 或者 域名 + 监听端口, VPS 上监听的是 7777 端口：http://shuoweiwu.xyz:7777,
+- Payload URL : ip 或者 域名 + 监听端口, VPS 上监听的是 7777 端口：<http://shuoweiwu.xyz:7777,>
 - Content Type : application/json
 - Secret : 保持与`deploy.js`中一致
 

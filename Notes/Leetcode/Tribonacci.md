@@ -4,7 +4,7 @@ Tag: 递归/dp，数组
 
 ## Q
 
-```
+```markdown
 泰波那契序列 Tn 定义如下：
 
 T0 = 0, T1 = 1, T2 = 1, 且在 n >= 0 的条件下 Tn+3 = Tn + Tn+1 + Tn+2
@@ -42,7 +42,7 @@ T_4 = 1 + 1 + 2 = 4
 
 使用递归，记录初始条件，从顶向下递归。
 
-```py
+```python
 class Solution:
     def tribonacci(self, n: int) -> int:
         if n == 0:
@@ -60,7 +60,7 @@ class Solution:
 
 ## 递归优化
 
-```py
+```python
 class Solution:
     def __init__(self):
         self.Dict = {}
@@ -85,7 +85,7 @@ class Solution:
 
 当前位置值为前三个值的和，需要创建三个变量在遍历时保存前三个值。
 
-```py
+```python
 class Solution:
     def tribonacci(self, n: int) -> int:
         if n == 0:
