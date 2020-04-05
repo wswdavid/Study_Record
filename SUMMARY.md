@@ -1,15 +1,9 @@
 # Summary
 
-<<<<<<< HEAD
-* [Gitbook](Notes/Gitbook/IntroGitbook.md)
-  * [book.json](Notes/Gitbook/GitbookStructure.md)
-  * [自动化 VPS 部署](Notes/Gitbook/DeployGitbook.md)
-=======
 - [Gitbook](Notes/Gitbook/IntroGitbook.md)
   - [Gitbook 插件](Notes/Gitbook/GitbookStructure.md)
   - [markdownlint 规范](Notes/Gitbook/MarkdownLint.md)
   - [自动化 VPS 部署](Notes/Gitbook/DeployGitbook.md)
->>>>>>> 8336727c4a240e4d02135e7141a25c3bea7f0f54
 
 ---
 
@@ -22,16 +16,6 @@
 
 ---
 
-<<<<<<< HEAD
-* [Python](Notes/Python/PythonIntro.md)
-  * [ListAndTuple](Notes/Python/ListAndTuple.md)
-
----
-
-* [Leetcode](Notes/Leetcode/LeetcodeIntro.md)
-  * [938 二叉搜索树范围和](Notes/Leetcode/rangeSumBST.md)
-  * [1137 泰波那契数](Notes/Leetcode/Tribonacci.md)
-=======
 - [Python](Notes/Python/PythonIntro.md)
   - [ListAndTuple](Notes/Python/ListAndTuple.md)
 
@@ -40,4 +24,3 @@
 - [Leetcode](Notes/Leetcode/LeetcodeIntro.md)
   - [938 二叉搜索树范围和](Notes/Leetcode/RangeSumBST.md)
   - [1137 泰波那契数](Notes/Leetcode/Tribonacci.md)
->>>>>>> 8336727c4a240e4d02135e7141a25c3bea7f0f54
