@@ -38,10 +38,11 @@
     "hide-element",
     "multipart"
   ],
-
   "pluginsConfig": {
     "hide-element": {
-      "elements": [".gitbook-link"]
+      "elements": [
+        ".gitbook-link"
+      ]
     },
     "edit-link": {
       "base": "https://github.com/wswdavid/Study_Record/blob/master",
@@ -54,9 +55,13 @@
     "sectionx": {
       "tag": "b"
     },
-    "fontsetting": { "size": 12 },
+    "fontsetting": {
+      "size": 12
+    },
     "prism": {
-      "css": ["prism-themes/themes/prism-atom-dark.css"]
+      "css": [
+        "prism-themes/themes/prism-atom-dark.css"
+      ]
     },
     "include-codeblock": {
       "template": "ace",
@@ -72,12 +77,13 @@
       "weibo": true,
       "qq": true,
       "facebook": true,
-      "all": ["douban", "facebook", "google", "twitter", "weibo"]
-    }
-  },
-  "links": {
-    "sidebar": {
-      "Github URL": "https://github.com/wswdavid/Study_Record"
+      "all": [
+        "douban",
+        "facebook",
+        "google",
+        "twitter",
+        "weibo"
+      ]
     }
   },
   "links": {
