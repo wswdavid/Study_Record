@@ -1,10 +1,6 @@
 # Gitbook 介绍
 
-<<<<<<< HEAD
->GitBook 是一个基于Node.js的命令行工具，可以使用Markdown来制作电子书，并利用Git/Github发布。
-=======
 > GitBook 是一个基于 Node.js 的命令行工具，可以使用 Markdown 来制作电子书，并利用 Git/Github 发布。
->>>>>>> 8336727c4a240e4d02135e7141a25c3bea7f0f54
 
 最近在写小组的论文，那就免不了会涉及到团队编辑文档。本来打算是开一个 pages 然后协作共享出来一起改，但是目前小组的机器情况是 2Win+2Mac，虽然 pages 目前也支持网页版的了，然而本地环境的使用体验还是会比网页版的好很多。还有一个要考虑的问题就是这种文档内(pages/word)的编辑很难做到版本控制，万一一不小心一个剪刀手，好吧还是不要毒奶。
 
@@ -32,53 +28,24 @@
 
 ### 环境要求
 
-<<<<<<< HEAD
-NodeJS(v4.0.0 及以上)，node的安装可以参考[Nodejs Install](../DevOps/NodeInstall.md)。
-
-需要通过npm安装gitbook以及gitbook的脚手架工具。
-=======
 NodeJS(v4.0.0 及以上)，node 的安装可以参考[Nodejs Install](../DevOps/NodeInstall.md)。
 
 需要通过 npm 安装 gitbook 以及 gitbook 的脚手架工具。
->>>>>>> 8336727c4a240e4d02135e7141a25c3bea7f0f54
 
 ```npm
 npm install -g gitbook
 npm install -g gitbook-cli
 ```
 
-<<<<<<< HEAD
-通过`gitbook init`命令就可以快速初始化一个gitbook项目，可以看到会生成一个`README.md`以及`SUMMARY.md`文件。
-
-`README.md`跟GitHub项目的类似，是该项目的一个说明文档。
-
-主要的md文件编排工作在`SUMMARY.md`里完成，以下是一个简单的`SUMMARY.md`示例,Demo展示项目放在了[Gitbook_Demo](https://github.com/wswdavid/Gitbook_Demo)。
-=======
 通过`gitbook init`命令就可以快速初始化一个 gitbook 项目，可以看到会生成一个`README.md`以及`SUMMARY.md`文件。
 
 `README.md`跟 GitHub 项目的类似，是该项目的一个说明文档。
 
 主要的 md 文件编排工作在`SUMMARY.md`里完成，以下是一个简单的`SUMMARY.md`示例,Demo 展示项目放在了[Gitbook_Demo](https://github.com/wswdavid/Gitbook_Demo)。
->>>>>>> 8336727c4a240e4d02135e7141a25c3bea7f0f54
 
 ```markdown
 # Summary
 
-<<<<<<< HEAD
-* [Introduction](README.md)
-
----
-第一章
-
-* [Chapter 1 Intro](Chapter_1/Chapter_1_Intro.md)
-  * [Chapter 1-1](Chapter_1/Chapter_1.md)
-
----
-第二章
-
-* [Chapter 2](Chapter_2/Chapter_2_Intro.md)
-  * [Chapter 2-1](Chapter_2/Chapter_2.md)
-=======
 - [Introduction](README.md)
 
 ---
@@ -94,27 +61,10 @@ npm install -g gitbook-cli
 
 - [Chapter 2](Chapter_2/Chapter_2_Intro.md)
   - [Chapter 2-1](Chapter_2/Chapter_2.md)
->>>>>>> 8336727c4a240e4d02135e7141a25c3bea7f0f54
 
 ---
 ```
 
-<<<<<<< HEAD
-### 启动gitbook
-
-1. `gitbook serve`预览
-    serve命令可以让本机的4000端口开一个预览模式，打开`http://localhost:4000`进行预览。也可以加上参数`-p 端口号`在指定端口上运行。
-2. `gitbook build`生成静态网页
-   该命令会生成一个新的隐藏文件夹_book，其中`index.html`为静态网页的入口。
-3. `gitbook pdf .` or `gitbook epub .`  
-    项目目录下会生成book.pdf或者book.epub电子书。
-
-    > 需要注意的是生成pdf需要calibre这个软件， Mac 刚开始在生成 pdf 的时候发现构建的时候总是会卡死，后来发现在**安装 calibre 的时候要记得选 3.X 版本**的
-
-### 高阶配置
-
-gitbook可以通过配置`book.json`文件来实现一些自定义的配置以及插件，需要自己手动创建该文件，以下是一个配置文件的实例。[book.json](./GitbookStructure.md)运行前gitbook会检查插件是否存在，通过`gitbook install`命令会自动安装Plugins里面的插件。
-=======
 ### 启动 gitbook
 
 1. `gitbook serve`预览
@@ -130,4 +80,3 @@ gitbook可以通过配置`book.json`文件来实现一些自定义的配置以�
 ### 高阶配置
 
 gitbook 可以通过配置`book.json`文件来实现一些自定义的配置以及插件，需要自己手动创建该文件，以下是一个配置文件的实例[book.json](./GitbookStructure.md)。运行前 gitbook 会检查插件是否存在，通过`gitbook install`命令会自动安装 Plugins 里面的插件。
->>>>>>> 8336727c4a240e4d02135e7141a25c3bea7f0f54

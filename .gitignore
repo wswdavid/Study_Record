@@ -53,33 +53,4 @@ $RECYCLE.BIN/
 # 屏蔽Gitbook文件
 /_book/
 /node_modules/
-<<<<<<< HEAD
-
-#前端项目文件
-node_modules
-obj
-*.csproj.user
-.idea
-yarn-error.log
-.DS_Store
-.dist
-.vs
-obj
-*.csproj.user
-.idea
-.history
-.cache-loader
-webpack_cache
-dist
-./yarn-error.log
-node_modules
-.history
-publish
-dist.zip
-dist.tar.gz
-dist/index.html
-yarn-error.log
-_package.json
-=======
->>>>>>> 8336727c4a240e4d02135e7141a25c3bea7f0f54
 package-lock.json
