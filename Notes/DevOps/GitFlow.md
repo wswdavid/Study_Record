@@ -56,3 +56,9 @@ git rebase -i commit_id #至少前面的两次提交
 #fixup : 与 squash 相同，只是不会保留这行 commit 的提交 message 信息
 git push origin master -f
 ```
+
+
+
+
+
+
