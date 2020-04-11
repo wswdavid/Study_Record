@@ -51,4 +51,4 @@
 
 6. 发起 `Pull Request` 流程
 
-> 一些典型的 git 流程操作可以参考[Git FLow](./Notes/DevOps/GitFlow.md)，持续更新中。
+> 一些典型的 git 流程操作可以参考[Git 操作流程](./Notes/DevOps/GitFlow.md)，持续更新中。
