@@ -30,7 +30,7 @@ NodeJS(v4.0.0 及以上)，node 的安装可以参考[Nodejs Install](../DevOps/
 
 需要通过 npm 安装 gitbook 的脚手架工具。
 
-```npm
+```shell
 npm install -g gitbook-cli
 ```
 
