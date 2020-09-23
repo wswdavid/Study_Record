@@ -53,6 +53,7 @@ $RECYCLE.BIN/
 # 屏蔽Gitbook文件
 /_book/
 /node_modules/
+<<<<<<< HEAD
 
 #前端项目文件
 node_modules
@@ -79,4 +80,6 @@ dist.tar.gz
 dist/index.html
 yarn-error.log
 _package.json
+=======
+>>>>>>> upstream/master
 package-lock.json
