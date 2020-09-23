@@ -51,12 +51,4 @@
 
 6. 发起 `Pull Request` 流程
 
-<<<<<<< HEAD
-4. 解决本地冲突后提交commit
-5. `git push origin master` push 代码至主库
-
-一些典型的git流程操作可以参考[Git FLow](./Notes/DevOps/GitFlow.md)
-，持续更新中
-=======
 > 一些典型的 git 流程操作可以参考[Git 操作流程](./Notes/DevOps/GitFlow.md)，持续更新中。
->>>>>>> upstream/master
