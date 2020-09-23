@@ -1,10 +1,5 @@
 # Summary
 
-<<<<<<< HEAD
-* [Gitbook](Notes/Gitbook/IntroGitbook.md)
-  * [book.json](Notes/Gitbook/GitbookStructure.md)
-  * [自动化 VPS 部署](Notes/Gitbook/DeployGitbook.md)
-=======
 ---
 
 - [Gitbook](Notes/Gitbook/IntroGitbook.md)
@@ -20,7 +15,6 @@
   - [Python](Notes/DevOps/pyenv安装python.md)
   - [zsh shell 配置](Notes/DevOps/zsh配置.md)
   - [Vscode 免密登录云服务器](Notes/DevOps/VscodeRemoteConf.md)
->>>>>>> upstream/master
 
 ---
 
@@ -34,3 +28,8 @@
   - [938 二叉搜索树范围和](Notes/Leetcode/RangeSumBST.md)
   - [1137 泰波那契数](Notes/Leetcode/Tribonacci.md)
   - [783 二叉搜索树结点最小距离](/Notes/Leetcode/MinDiffInBST.md)
+
+
+---
+
+- [Netflix-Conductor](Notes/NetflixConductor/ConductorDocument.md)
