@@ -32,7 +32,7 @@ startWorkflow功能在调用接口时会先判断传入的workflow名称是否�
 * 向数据库中workflow表中更新workflow
 11. 将DECIDER_QUEUE存入queue_message
 12. 将task添加至queue_message
-![startWorkflow执行](../../Pictures/Conductor/decideMethod.png)
+![startWorkflow执行](../../Pictures/Conductor/DecideMethod.png)
 
 # System Task worker coordinator 监听流程
 1. 初始化linkedblockingqueue用于缓存task类型用于监听
