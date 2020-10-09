@@ -1,4 +1,3 @@
-[TOC]
 # Netflix Conductor 整体架构设计
 ![Conductor架构](../../Pictures/Conductor/MSOArchitecture.png)
 
