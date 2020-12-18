@@ -319,6 +319,11 @@ This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
     "sidebar": {
       "Github URL": "https://github.com/wswdavid/Study_Record"
     }
+  },
+  "links": {
+    "sidebar": {
+      "Github URL": "https://github.com/wswdavid/Study_Record"
+    }
   }
 }
 ```
