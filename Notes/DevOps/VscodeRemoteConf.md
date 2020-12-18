@@ -29,3 +29,15 @@ Host IP地址
    User root
    IdentityFile ~/.ssh/id_rsa
 ```
+
+## 4. 升级 git
+
+CentOS 本身的仓库里的 git 版本是比较低的，只有 1.18，需要对 git 进行升级。
+
+```shell
+#也可以打开这个链接 http://opensource.wandisco.com/centos/7/git/x86_64/ 自己去找对应的rpm包，复制对应包的链接地址
+yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+
+#查看git版本
+git --version
+```
