@@ -29,19 +29,21 @@
   - [1137 泰波那契数](Notes/Leetcode/Tribonacci.md)
   - [783 二叉搜索树结点最小距离](/Notes/Leetcode/MinDiffInBST.md)
 
-
 ---
 
 - [Netflix-Conductor](Notes/NetflixConductor/ConductorDocument.md)
-
 
 ---
 
 - [JVM](Notes/JVM/JVMIntro.md)
   - [JVM 类加载](Notes/JVM/JVMClassLoad.md)
 
-
 ---
 
 - [Spring](Notes/Spring/SpringIntro.md)
   - [Spring 核心概念](Notes/Spring/SpringBasicConcept.md)
+
+---
+
+- [其他](Notes/Others/index.md)
+  - [Mac常用软件小记](Notes/Others/Mac_SW.md)
