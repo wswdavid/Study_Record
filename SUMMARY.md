@@ -31,6 +31,14 @@
 
 ---
 
+- [Algorithm](Notes/Algorithm/AlgorithmIntro.md)
+  - [选择排序](Notes/Algorithm/SelectSort.md)
+  - [冒泡排序](Notes/Algorithm/BubbleSort.md)
+  - [插入排序](Notes/Algorithm/InsertationSort.md)
+  - [快速排序](Notes/Algorithm/QuickSort.md)
+
+---
+
 - [Netflix-Conductor](Notes/NetflixConductor/ConductorDocument.md)
 
 ---
