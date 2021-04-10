@@ -9,7 +9,7 @@ public class AppConfig {
 }
 ```
 
-#### 2.设置FactoryBean类
+### 2.设置FactoryBean类
 ```java
 @Component("testObj") //如果@Component 添加了name则获取bean时要通过自定义的名字进行获取，默认spring会将名字解析为首字母小写 MyFactoryBean -> myFactoryBean
 @Scope("prototype") // spring中的Bean默认为单例模式，若配置Scope为prototype则为多例

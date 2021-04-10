@@ -51,6 +51,7 @@
 - [Spring](Notes/Spring/SpringIntro.md)
   - [Spring 核心概念](Notes/Spring/SpringBasicConcept.md)
   - [Spring IOC](Notes/Spring/SpringIOC.md)
+  - [FactoryBean 使用及原理](Notes/Spring/FactoryBeanConcept.md)
 
 ---
 
