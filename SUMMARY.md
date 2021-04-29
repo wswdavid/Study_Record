@@ -31,6 +31,14 @@
 
 ---
 
+- [Algorithm](Notes/Algorithm/AlgorithmIntro.md)
+  - [选择排序](Notes/Algorithm/SelectSort.md)
+  - [冒泡排序](Notes/Algorithm/BubbleSort.md)
+  - [插入排序](Notes/Algorithm/InsertationSort.md)
+  - [快速排序](Notes/Algorithm/QuickSort.md)
+
+---
+
 - [Netflix-Conductor](Notes/NetflixConductor/ConductorDocument.md)
 
 ---
@@ -43,7 +51,8 @@
 - [Spring](Notes/Spring/SpringIntro.md)
   - [Spring 核心概念](Notes/Spring/SpringBasicConcept.md)
   - [Spring IOC](Notes/Spring/SpringIOC.md)
-
+  - [FactoryBean 使用及原理](Notes/Spring/FactoryBeanConcept.md)
+  - [Spring中Bean的生命周期](Notes/Spring/BeanLifeCycle.md)
 ---
 
 - [其他](Notes/Others/index.md)
